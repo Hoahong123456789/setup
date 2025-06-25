@@ -6,4 +6,4 @@ termux-setup-storage
 yes | pkg update
 . <(curl https://raw.githubusercontent.com/u400822/setup-termux/refs/heads/main/termux-change-repo.sh)
 yes | pkg upgrade && yes | pkg i python && yes | pkg i android-tools && yes | pkg i python-pip && pip install requests psutil prettytable
-curl -Ls "https://raw.githubusercontent.com/u400822/setup-termux/refs/heads/main/Rejoin.py" -o /sdcard/Download/Rejoin.py
+curl -Ls "https://cdn.jsdelivr.net/gh/Hoahong123456789/setup@main/Rejoin.py" -o /sdcard/Download/Rejoin.py
